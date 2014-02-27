@@ -202,6 +202,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Timothy Hanby";
 				TargetAttributes = {
+					8EAD421518BF81F20076A78C = {
+						DevelopmentTeam = 478S752A6K;
+					};
 					8EAD423918BF81F20076A78C = {
 						TestTargetID = 8EAD421518BF81F20076A78C;
 					};
@@ -392,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gestures/Gestures-Prefix.pch";
 				INFOPLIST_FILE = "Gestures/Gestures-Info.plist";
@@ -405,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gestures/Gestures-Prefix.pch";
 				INFOPLIST_FILE = "Gestures/Gestures-Info.plist";
