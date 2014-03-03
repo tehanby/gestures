@@ -1,0 +1,5 @@
+#include "Pods-TTAlertManager.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/TTAlertManager" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/Mantle" "${PODS_ROOT}/Headers/Reveal-iOS-SDK" "${PODS_ROOT}/Headers/TTAlertManager" "${PODS_ROOT}/Headers/TestFlightSDK" "${PODS_ROOT}/Headers/Typhoon"
+OTHER_LDFLAGS = -ObjC ${PODS_TTALERTMANAGER_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
